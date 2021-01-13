@@ -7,14 +7,14 @@ axios para chamadas a API
 
 No diretorio do projeto, rode:
 
-Usando Yarn:
+### Usando Yarn:
 
 ### `yarn` para instalação das dependencias
 
-### `yarn start`para executar a aplicação
+### `yarn start` para executar a aplicação
 
-Usando NPM:
+### Usando NPM:
 
 ### `npm install` para instalação das dependencias
 
-### `npm start`para executar a aplicação
+### `npm start` para executar a aplicação
