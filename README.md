@@ -3,7 +3,7 @@
 Projeto implementado com reactjs e
 axios para chamadas a API
 
-## Como Executar aplicação
+## Como executar a aplicação
 
 No diretorio do projeto, rode:
 
