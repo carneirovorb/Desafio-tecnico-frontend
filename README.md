@@ -1,6 +1,6 @@
 # Desafio técnico frontend Navita
 
-Projeto implementado com reactjs
+Projeto implementado com reactjs e
 axios para chamadas a API
 
 ## Como Executar aplicação
