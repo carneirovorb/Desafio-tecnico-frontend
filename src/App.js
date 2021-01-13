@@ -48,6 +48,7 @@ function App() {
           <div className="ModelsHeader Container">
                   <div className="Title">Marcas</div>
             </div> 
+            <div className="Container">
             <div className="Item Container">
                   <div className="Title">Marca</div>
             </div>
@@ -59,26 +60,29 @@ function App() {
                 </div>
               ))
             }
+            </div>
           </div>
           { 
-          
-          models!=null &&
-          <div className="Models">
-            <div className="ModelsHeader Container">
-                  <div className="Title">Modelos</div>
-            </div> 
-            <div className="Item Container">
-                  <div className="Title">Modelo</div>
-            </div> 
-            { 
-              models.map(model=>(
-                <div className="Item Container" key={model.codigo}>
-                  <div className="Model">{model.nome}</div>
-                  
-                </div>
-              ))
-            }
-          </div>
+            models!=null &&
+            <div className="Models">
+              
+                <div className="ModelsHeader Container">
+                      <div className="Title">Modelos</div>
+                </div> 
+                <div className="Container">
+                <div className="Item Container">
+                      <div className="Title">Modelo</div>
+                </div> 
+                { 
+                  models.map(model=>(
+                    <div className="Item Container" key={model.codigo}>
+                      <div className="Model">{model.nome}</div>
+                      
+                    </div>
+                  ))
+                }
+              </div>
+            </div>
           }  
       </div>
       <footer>

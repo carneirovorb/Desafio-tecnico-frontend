@@ -56,6 +56,10 @@ p.Header {
   margin-bottom: 30px;
 }
 
+.Item:first-of-type {
+  border-bottom: 2px solid #e3e6f0;
+}
+
 .InfoModel {
   margin-right: 40%;
 }
