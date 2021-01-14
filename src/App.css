@@ -1,5 +1,5 @@
 p.Header {
-  font-size: 40px;
+  font-size: 33px;
   margin: 0;
   text-align: left;
   margin: 20px 0;
@@ -56,6 +56,11 @@ p.Header {
   margin-bottom: 30px;
 }
 
+.Producer {
+  min-width: 130px;
+  text-align: left;
+}
+
 .Item:first-of-type {
   border-bottom: 2px solid #e3e6f0;
 }
@@ -76,7 +81,8 @@ p.Header {
   background-color: #fff;
   height: 60px;
   color: #1cc88a;
-  font-size: calc(10px + 2vmin);
+  font-size: 20px;
+  font-weight: 600;
   box-shadow: 0px 5px 9px 0 rgba(58, 59, 69, 0.15);
 }
 
